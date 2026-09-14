@@ -121,16 +121,6 @@ class Prakata extends State<PrakataPage> {
                                                     ),
                                               ),
                                           ],)
-                                              // Html(
-                                              //   data: text_prakata,
-                                              // ),
-                                              // RichText(
-                                              //   text: HTML.toTextSpan(context, text_prakata),
-                                              // ),
-                                              // HtmlWidget(
-                                              //   text_prakata,
-                                              // )
-
                                         ),
                                       ),
                                       Padding(

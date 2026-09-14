@@ -1,5 +1,5 @@
 class API {
-  static String baseUrl = "https://kamus-arab.infinityfree.me/";
+  static String baseUrl = "https://kamus-arab.whf.bz/";
 
   String getBASEURL() {
     return baseUrl;

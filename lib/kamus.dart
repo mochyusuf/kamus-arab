@@ -579,7 +579,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       type: isNumericMode
                           ? VirtualKeyboardType.Numeric
                           : VirtualKeyboardType.Alphanumeric,
-                      onKeyPress: _onKeyPress),
+                      onKeyPress: _onKeyPress
+                      ),
                 )
               ],
             ),

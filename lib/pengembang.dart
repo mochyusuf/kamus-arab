@@ -53,7 +53,7 @@ class Pengembang extends StatelessWidget {
                                           const EdgeInsets.fromLTRB(0, 0, 0, 0),
                                       child: Container(
                                           width: 330,
-                                          height: 2100 / 2,
+                                          height: 560 / 2,
                                           decoration: const BoxDecoration(
                                               image: DecorationImage(
                                             image: AssetImage(
