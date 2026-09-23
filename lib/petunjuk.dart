@@ -66,132 +66,132 @@ class Petunjuk extends StatelessWidget {
                                               color: const Color(0xff8F8A6D),
                                             ),
                                           ),
-                                          GestureDetector(
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          10, 0, 0, 0),
-                                                  child: Container(
-                                                    width: 58,
-                                                    height: 200 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/6.png'),
-                                                      fit: BoxFit.fitWidth,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          0, 15, 0, 0),
-                                                  child: Container(
-                                                    width: 240,
-                                                    height: 58 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/150.png'),
-                                                      fit: BoxFit.fitHeight,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                            onTap: () {
-                                              Navigator.push(
-                                                context,
-                                                MaterialPageRoute(
-                                                    builder: (context) =>
-                                                        const Petunjuk_Prakarta()),
-                                              );
-                                            },
-                                          ),
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(
-                                                0, 10, 0, 10),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: 5,
-                                              color: const Color(0xff8F8A6D),
-                                            ),
-                                          ),
-                                          GestureDetector(
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          10, 0, 0, 0),
-                                                  child: Container(
-                                                    width: 58,
-                                                    height: 200 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/8.png'),
-                                                      fit: BoxFit.fitWidth,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          0, 15, 0, 0),
-                                                  child: Container(
-                                                    width: 240,
-                                                    height: 58 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/151.png'),
-                                                      fit: BoxFit.fitHeight,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                            onTap: () {
-                                              Navigator.push(
-                                                context,
-                                                MaterialPageRoute(
-                                                    builder: (context) =>
-                                                        const Petunjuk_Petunjuk()),
-                                              );
-                                            },
-                                          ),
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(
-                                                0, 10, 0, 10),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: 5,
-                                              color: const Color(0xff8F8A6D),
-                                            ),
-                                          ),
+                                          // GestureDetector(
+                                          //   child: Row(
+                                          //     crossAxisAlignment:
+                                          //         CrossAxisAlignment.start,
+                                          //     children: [
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 10, 0, 0, 0),
+                                          //         child: Container(
+                                          //           width: 58,
+                                          //           height: 200 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/6.png'),
+                                          //             fit: BoxFit.fitWidth,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 0, 15, 0, 0),
+                                          //         child: Container(
+                                          //           width: 240,
+                                          //           height: 58 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/150.png'),
+                                          //             fit: BoxFit.fitHeight,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //     ],
+                                          //   ),
+                                          //   onTap: () {
+                                          //     Navigator.push(
+                                          //       context,
+                                          //       MaterialPageRoute(
+                                          //           builder: (context) =>
+                                          //               const Petunjuk_Prakarta()),
+                                          //     );
+                                          //   },
+                                          // ),
+                                          // Padding(
+                                          //   padding: const EdgeInsets.fromLTRB(
+                                          //       0, 10, 0, 10),
+                                          //   child: Container(
+                                          //     width: double.infinity,
+                                          //     height: 5,
+                                          //     color: const Color(0xff8F8A6D),
+                                          //   ),
+                                          // ),
+                                          // GestureDetector(
+                                          //   child: Row(
+                                          //     crossAxisAlignment:
+                                          //         CrossAxisAlignment.start,
+                                          //     children: [
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 10, 0, 0, 0),
+                                          //         child: Container(
+                                          //           width: 58,
+                                          //           height: 200 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/8.png'),
+                                          //             fit: BoxFit.fitWidth,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 0, 15, 0, 0),
+                                          //         child: Container(
+                                          //           width: 240,
+                                          //           height: 58 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/151.png'),
+                                          //             fit: BoxFit.fitHeight,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //     ],
+                                          //   ),
+                                          //   onTap: () {
+                                          //     Navigator.push(
+                                          //       context,
+                                          //       MaterialPageRoute(
+                                          //           builder: (context) =>
+                                          //               const Petunjuk_Petunjuk()),
+                                          //     );
+                                          //   },
+                                          // ),
+                                          // Padding(
+                                          //   padding: const EdgeInsets.fromLTRB(
+                                          //       0, 10, 0, 10),
+                                          //   child: Container(
+                                          //     width: double.infinity,
+                                          //     height: 5,
+                                          //     color: const Color(0xff8F8A6D),
+                                          //   ),
+                                          // ),
                                           GestureDetector(
                                             child: Row(
                                               crossAxisAlignment:
@@ -309,132 +309,132 @@ class Petunjuk extends StatelessWidget {
                                               );
                                             },
                                           ),
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(
-                                                0, 10, 0, 10),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: 5,
-                                              color: const Color(0xff8F8A6D),
-                                            ),
-                                          ),
-                                          GestureDetector(
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          10, 0, 0, 0),
-                                                  child: Container(
-                                                    width: 58,
-                                                    height: 200 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/14.png'),
-                                                      fit: BoxFit.fitWidth,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          0, 15, 0, 0),
-                                                  child: Container(
-                                                    width: 240,
-                                                    height: 58 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/154.png'),
-                                                      fit: BoxFit.fitHeight,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                            onTap: () {
-                                              Navigator.push(
-                                                context,
-                                                MaterialPageRoute(
-                                                    builder: (context) =>
-                                                        const Petunjuk_Referensi()),
-                                              );
-                                            },
-                                          ),
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(
-                                                0, 10, 0, 10),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: 5,
-                                              color: const Color(0xff8F8A6D),
-                                            ),
-                                          ),
-                                          GestureDetector(
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          10, 0, 0, 0),
-                                                  child: Container(
-                                                    width: 58,
-                                                    height: 200 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/16.png'),
-                                                      fit: BoxFit.fitWidth,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.fromLTRB(
-                                                          0, 15, 0, 0),
-                                                  child: Container(
-                                                    width: 240,
-                                                    height: 58 / 4,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                      image: AssetImage(
-                                                          'assets/image/155.png'),
-                                                      fit: BoxFit.fitHeight,
-                                                      alignment:
-                                                          Alignment.centerLeft,
-                                                    )),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                            onTap: () {
-                                              Navigator.push(
-                                                context,
-                                                MaterialPageRoute(
-                                                    builder: (context) =>
-                                                        const Petunjuk_Pengembang()),
-                                              );
-                                            },
-                                          ),
+                                          // Padding(
+                                          //   padding: const EdgeInsets.fromLTRB(
+                                          //       0, 10, 0, 10),
+                                          //   child: Container(
+                                          //     width: double.infinity,
+                                          //     height: 5,
+                                          //     color: const Color(0xff8F8A6D),
+                                          //   ),
+                                          // ),
+                                          // GestureDetector(
+                                          //   child: Row(
+                                          //     crossAxisAlignment:
+                                          //         CrossAxisAlignment.start,
+                                          //     children: [
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 10, 0, 0, 0),
+                                          //         child: Container(
+                                          //           width: 58,
+                                          //           height: 200 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/14.png'),
+                                          //             fit: BoxFit.fitWidth,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 0, 15, 0, 0),
+                                          //         child: Container(
+                                          //           width: 240,
+                                          //           height: 58 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/154.png'),
+                                          //             fit: BoxFit.fitHeight,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //     ],
+                                          //   ),
+                                          //   onTap: () {
+                                          //     Navigator.push(
+                                          //       context,
+                                          //       MaterialPageRoute(
+                                          //           builder: (context) =>
+                                          //               const Petunjuk_Referensi()),
+                                          //     );
+                                          //   },
+                                          // ),
+                                          // Padding(
+                                          //   padding: const EdgeInsets.fromLTRB(
+                                          //       0, 10, 0, 10),
+                                          //   child: Container(
+                                          //     width: double.infinity,
+                                          //     height: 5,
+                                          //     color: const Color(0xff8F8A6D),
+                                          //   ),
+                                          // ),
+                                          // GestureDetector(
+                                          //   child: Row(
+                                          //     crossAxisAlignment:
+                                          //         CrossAxisAlignment.start,
+                                          //     children: [
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 10, 0, 0, 0),
+                                          //         child: Container(
+                                          //           width: 58,
+                                          //           height: 200 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/16.png'),
+                                          //             fit: BoxFit.fitWidth,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //       Padding(
+                                          //         padding:
+                                          //             const EdgeInsets.fromLTRB(
+                                          //                 0, 15, 0, 0),
+                                          //         child: Container(
+                                          //           width: 240,
+                                          //           height: 58 / 4,
+                                          //           decoration:
+                                          //               const BoxDecoration(
+                                          //                   image:
+                                          //                       DecorationImage(
+                                          //             image: AssetImage(
+                                          //                 'assets/image/155.png'),
+                                          //             fit: BoxFit.fitHeight,
+                                          //             alignment:
+                                          //                 Alignment.centerLeft,
+                                          //           )),
+                                          //         ),
+                                          //       ),
+                                          //     ],
+                                          //   ),
+                                          //   onTap: () {
+                                          //     Navigator.push(
+                                          //       context,
+                                          //       MaterialPageRoute(
+                                          //           builder: (context) =>
+                                          //               const Petunjuk_Pengembang()),
+                                          //     );
+                                          //   },
+                                          // ),
                                         ],
                                       )),
                                 ),
